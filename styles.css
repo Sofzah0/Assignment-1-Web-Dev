@@ -1,0 +1,252 @@
+.oswald-text-normal {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.oswald-text-semi-bold {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.8px;
+}
+
+.news-cycle-regular {
+    font-family: "News Cycle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.news-cycle-bold {
+    font-family: "News Cycle", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-color: #f3f3ec;
+}
+
+.font-bigger-nav-first {
+    font-size: 1.5em;
+}
+.font-bigger-nav-items {
+    font-size: 1.2em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 7.4em;
+    font-weight: 700;
+    font-family: "News Cycle", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 0.8px;
+    padding-right: 10px;
+    color: #090807;
+}
+
+h2 {
+    font-size: 4.5em;
+    font-weight: 700;
+    font-family: "News Cycle", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 0.8px;
+    color: #090807;
+}
+
+@media screen and (max-width: 989px) {
+    h1 {
+        font-size: 4.5em;
+    }
+}
+
+.spacer {
+    height: 100px;
+}
+.small-spacer {
+    height: 50px;
+}
+.spacer-md {
+    height: 75px;
+}
+
+/* card styling start */
+
+.img-container {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card-title-custom {
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: "News Cycle", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 0.8px;
+    color: #090807;
+    text-align: center;
+}
+
+.card-styles-custom {
+    border: 1px solid transparent;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px 0 rgba(149, 146, 142, 0.1);
+    background-color: rgb(191, 189, 186, 0.25);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 290px;
+    margin-bottom: 25px;
+}
+.card-styles-custom:hover {
+    box-shadow: 0 4px 6px 0 rgba(149, 146, 142, 0.25);
+    border: 1px solid #090807;
+    animation: shake 0.5s;
+}
+h5 {
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: "News Cycle", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 0.8px;
+    color: #090807;
+}
+
+/* card styling end */
+
+/* Project page styling start */
+
+.project-title {
+    font-size: 2.3em;
+    font-weight: 700;
+    font-family: "News Cycle", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 0.8px;
+    color: #090807;
+    margin-bottom: 25px;
+}
+
+.line {
+    border-top: 1px solid #090807;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.project-description {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 760px) {
+    .project-description {
+        margin-bottom: 20px;
+    }
+}
+
+/* Project page styling end */
+
+/* CV page styling start */
+.cv-name {
+    font-size: 2.3em;
+    font-weight: 700;
+    font-family: "News Cycle", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 0.8px;
+    color: #090807;
+    margin-bottom: 25px;
+}
+
+.cv-sub-titles {
+    font-size: 1.8em;
+    font-weight: 700;
+    font-family: "News Cycle", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 0.8px;
+    color: #090807;
+    margin-bottom: 30px;
+}
+
+.cv-desprition-txt {
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-25 {
+    margin-bottom: 25px;
+}
+.line-cv-pg {
+    border-top: 1px solid #090807;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.padding-right-60 {
+    padding-right: 60px;
+}
+
+@media screen and (max-width: 760px) {
+    .padding-right-60 {
+        padding-right: 0px;
+    }
+}
+.button-cv-pg {
+    background-color: #090807;
+    color: #f3f3ec;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: 700;
+    font-family: "News Cycle", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 0.8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* CV page styling end */
+
+/* Contact page styling start */
+.contact-area-style {
+    background-color: rgb(191, 189, 186, 0.25);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 70px;
+}
+.form-div {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.form-div input[type="text"],
+input[type="email"],
+textarea,
+input[type="submit"] {
+    width: 100%;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #090807;
+    border-radius: 30px;
+}
+/* Contact page styling end */
